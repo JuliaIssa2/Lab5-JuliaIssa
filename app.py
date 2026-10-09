@@ -181,7 +181,7 @@ def delete_user(user_id):
 
     return message
 
-
+# REST API endpoints
 @app.route('/api/users', methods=['GET'])
 def api_get_users():
     return jsonify(get_users())
